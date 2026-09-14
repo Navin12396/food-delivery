@@ -1,0 +1,8 @@
+<h2>Order Status</h2>
+<p>Restaurant: {{order.restaurant}}</p>
+<p>Status: {{lowercase order.status}}</p>
+{{#if order.delivered}}
+  <p>Your order has been delivered.</p>
+{{else}}
+  <p>Your order is still on the way.</p>
+{{/if}}
