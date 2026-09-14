@@ -1,0 +1,13 @@
+{
+  "name": "food-delivery-express",
+  "version": "1.0.0",
+  "description": "Online food delivery assignment using Express and Handlebars",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "hbs": "^4.2.0"
+  }
+}
